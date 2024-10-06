@@ -1,0 +1,128 @@
+body,html{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+.display{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    z-index: 1;
+   
+}
+p{
+    font-size: 4rem;
+}
+.key{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+   
+
+    height: 90%;
+    padding: 20px;
+    z-index: 1;
+}
+.keyboard{
+    height: 70%;
+    width: 100%;
+   
+    z-index: 1;
+}
+button{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+#test {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+.a{
+    background-image: url("./animg/cp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b{
+    background-image: url("./animg/dp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c{
+    background-image: url("./animg/ep.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.d{
+    background-image: url("./animg/lion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.e{
+    background-image: url("./animg/t.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f{
+    background-image: url("./animg/h.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g{
+    background-image: url("./animg/g.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h{
+    background-image: url("./animg/dppp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width:700px) {
+    .button{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 8rem;
+    }
+    .a{
+        background-image: url("./animg/image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .b{
+        background-image: url("./animg/dog.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .c{
+        background-image: url("./animg/el.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .f{
+        background-image: url("./animg/h.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
