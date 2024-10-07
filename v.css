@@ -57,70 +57,42 @@ button:hover{
     background-color: black;
 }
 .a{
-    background-image: url("./animg/cp.jpg");
+    background-image: url("./vimg/Bike.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .b{
-    background-image: url("./animg/dp.jpg");
+    background-image: url("./vimg/Car.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .c{
-    background-image: url("./animg/ep.jpg");
+    background-image: url("./vimg/Police.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
 .d{
-    background-image: url("./animg/lion.jpg");
+    background-image: url("./vimg/Train.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .e{
-    background-image: url("./animg/t.jpg");
+    background-image: url("./vimg/Boat.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .f{
-    background-image: url("./animg/h.jpg");
+    background-image: url("./vimg/Aeroplane.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .g{
-    background-image: url("./animg/g.jpg");
+    background-image: url("./vimg/Ambulance.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .h{
-    background-image: url("./animg/dppp.jpg");
+    background-image: url("./vimg/Rickshaw.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-@media (min-width:700px) {
-    .button{
-        font-size: 4rem;
-    }
-    p{
-        font-size: 8rem;
-    }
-    .a{
-        background-image: url("./animg/image.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .b{
-        background-image: url("./animg/dog.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .c{
-        background-image: url("./animg/el.jpg");
-        background-repeat: no-repeat;
-        background-size:cover;
-    }
-    .f{
-        background-image: url("./animg/h.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 }
