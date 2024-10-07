@@ -33,6 +33,12 @@ button1.addEventListener("click",number);
 function number(){
     window.location.href = './nums.html'; 
 }
+var button1=document.querySelector(".ani");
+button1.addEventListener("click",animal);
+
+function animal(){
+    window.location.href = './anim.html'; 
+}
 
 var button1=document.querySelector(".hm");
 button1.addEventListener("click",home);
@@ -40,6 +46,9 @@ button1.addEventListener("click",home);
 function home(){
     window.location.href = './index.html'; 
 }
+
+
+
 
 
 

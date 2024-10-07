@@ -41,6 +41,11 @@ function home(){
     window.location.href = './index.html'; 
 }
 
+var button1=document.querySelector(".yy");
+button1.addEventListener("click",vehicle);
+function vehicle(){
+    window.location.href = './vehicles.html'; 
+}
 
 
 t();
